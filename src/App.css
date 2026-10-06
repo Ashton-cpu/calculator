@@ -224,3 +224,12 @@ button:active {
 .empty {
   background: transparent;
 }
+.equals {
+  background: #4caf50;
+  color: white;
+  border-color: #ffcb05;
+}
+
+.equals:hover {
+  background: #3f9142;
+}
