@@ -38,7 +38,7 @@ function App() {
       <div className="pokeball"></div>
 
       <div className="calculator-title">
-        Calculator of Ashton Martin Zablan - IT3A
+        Calculator of Ashton Martin Zablan - DA3A
       </div>
 
       <div className="calculator">
@@ -64,7 +64,7 @@ function App() {
           <button onClick={() => press('3')}>3</button>
           <button className="operator" onClick={() => press('-')}>-</button>
 
-          <button className="clear" onClick={clear}>C</button>
+          <button className="clear" onClick={clear}>CLR</button>
           <button onClick={() => press('0')}>0</button>
           <button className="equals" onClick={calculate}>=</button>
           <button className="operator" onClick={() => press('+')}>+</button>
