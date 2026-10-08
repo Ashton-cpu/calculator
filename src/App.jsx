@@ -64,7 +64,7 @@ function App() {
           <button onClick={() => press('3')}>3</button>
           <button className="operator" onClick={() => press('-')}>-</button>
 
-          <button className="clear" onClick={clear}>CLR</button>
+          <button className="clear" onClick={clear}>C</button>
           <button onClick={() => press('0')}>0</button>
           <button className="equals" onClick={calculate}>=</button>
           <button className="operator" onClick={() => press('+')}>+</button>
